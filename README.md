@@ -10,6 +10,7 @@ Credential Harvesters are malicious web sites designed to impersonate legitimate
 ## Requirements
 - Python ≥ 3.0
 - Non-standard Python Libraries
+  - requests
   - progress
   - python-whois
 
