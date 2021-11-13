@@ -5,7 +5,7 @@ A python script designed to combat Credential Harvesters!
 
 ![CounterHarvest](screenshots/menu.png)
 
-Credential Harvesters are malicious web sites designed to impersonate legitimate login services. The objective of these web sites is to Social Engineer victims into inputting their Usernames/Password so that attacks can steal their login information. CounterHarvest.py is designed to disrupt these attacks by supplying the attackers with randomly generated credentials. 
+Credential Harvesters are malicious web sites designed to impersonate legitimate login services. The objective of these web sites is to Social Engineer victims into inputting their Usernames/Password so that attacks can steal their login information. CounterHarvest.py is designed to disrupt these attacks by supplying the attackers with poisioned credentials that are randomly generated. 
 
 ## Requirements
 - Python ≥ 3.0
