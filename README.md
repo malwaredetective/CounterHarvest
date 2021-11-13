@@ -36,3 +36,7 @@ CounterHarvest.py will ask you a series of questions to collect information abou
 You will be asked for a final confirmation before launching the attack.
 
 ![CounterHarvest](screenshots/attack.png)
+
+If you choose to capture the results of the attack, then a .CSV titled CounterHarvest.csv will be generated in the current working directory. The report contains information about the target, the poisioned credentials, and the HTTP status code the website responded with during the attack. This can indicate whether or not your attack was successful.
+
+![CounterHarvest](screenshots/report.png)
