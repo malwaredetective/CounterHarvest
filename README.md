@@ -5,6 +5,8 @@ A python script designed to combat Credential Harvesters!
 
 ![CounterHarvest](screenshots/menu.png)
 
+Credential Harvesters are malicious web sites designed to impersonate legitimate login services. The objective of these web sites is to Social Engineer victims into inputting their Usernames/Password so that attacks can steal their login information. CounterHarvest.py is designed to disrupt these attacks by supplying the attackers with randomly generated credentials. 
+
 ## Requirements
 - Python ≥ 3.0
 - Non-standard Python Libraries
@@ -24,3 +26,13 @@ pip install -r requirements.txt
 ```
 python CounterHarvest.py
 ```
+
+## Launching a Counter Attack!
+
+CounterHarvest.py will ask you a series of questions to collect information about the target. In order to leverage the offensive capabilites of CounterHarvest.py, you will need to investigate the Credential Harvester to identify some key characterisics. First, you need to identify where the Credential Harvester posts data when credentials are submitted. Next, you need to identify the Form ID's of the Username and Password fields so we know how to upload our poision credentials. Once you have that information, you're ready to attack!
+
+![CounterHarvest](screenshots/user_input.png)
+
+You will be asked for a final confirmation before launching the attack.
+
+![CounterHarvest](screenshots/attack.png)
